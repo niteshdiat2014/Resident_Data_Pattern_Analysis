@@ -1,0 +1,3 @@
+Syntax for execution:
+First get the drive information using "fdisk -l"
+python <filename>.py -d /dev/sda -o <directory path for output> -T <in seconds> -N <Number of Samples> -S <Total Number of Sector>
