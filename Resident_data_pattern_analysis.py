@@ -128,7 +128,7 @@ def KM(Dataset):
 					f.writerow([i, j, "122"])
 
 
-	plt.legend(("Null sectors","Encrypted information","Plain text","Compressed information"),scatterpoints=1,fontsize=12)
+	#plt.legend(("Null sectors","Encrypted information","Plain text","Compressed information"),scatterpoints=1,fontsize=12)
 	plt.xlabel('Drive Sectors',fontsize=15)
 	plt.ylabel('Entropy Values',fontsize=15)
 	# Limits for the Y axis
@@ -170,7 +170,7 @@ def KM(Dataset):
 			        for i, j in zip(X2[my_members, 0], X2[my_members, 1]):
 					f.writerow([i, j, "122"])
 
-	plt.legend(("Null sectors","Encrypted/Compressed information","Plain text"),scatterpoints=1,fontsize=12)
+	#plt.legend(("Null sectors","Encrypted/Compressed information","Plain text"),scatterpoints=1,fontsize=12)
 	plt.xlabel('Drive Sectors',fontsize=15)
 	plt.ylabel('ASCII Score',fontsize=15)
 	# Limits for the Y axis
@@ -279,7 +279,7 @@ def DBS(Dataset):
 					f.writerow([i, j, "122"])
 
 	#plt.title('Significant region identification using K-means clustering approach')
-	plt.legend(("Null sectors","Encrypted information","Plain text","Compressed information"),scatterpoints=1,fontsize=12)
+	#plt.legend(("Null sectors","Encrypted information","Plain text","Compressed information"),scatterpoints=1,fontsize=12)
 	plt.xlabel('Drive Sectors',fontsize=15)
 	plt.ylabel('Entropy Values',fontsize=15)
 	# Limits for the Y axis
@@ -325,7 +325,7 @@ def DBS(Dataset):
 					f.writerow([i, j, "122"])
 
 
-	plt.legend(("Null sectors","Compressed information","Plain text","Encrypted information"),scatterpoints=1,fontsize=12)
+	#plt.legend(("Null sectors","Compressed information","Plain text","Encrypted information"),scatterpoints=1,fontsize=12)
 	plt.xlabel('Drive Sectors',fontsize=15)
 	plt.ylabel('ASCII Score',fontsize=15)
 	# Limits for the Y axis
