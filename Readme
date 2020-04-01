@@ -1,3 +1,13 @@
+Recommendation: Use Linux/Unix (Kali Linux/Ubuntu etc.) platform for execution without any issue.
+
+The tool provides the resident data pattern of the drive irrespective of the file system information. 
+In thsi work the drive sector are assumed to be categorices/classified as Null, Plain text/readable, and Encoded/Implicit data.
+The tool assist in gaining graphical visualization of the saved data pattern in the drive by using unsupervised K-means an DBSCAN clustering approaches.
+Here, the number of cluster information in K-means is fixed to 3 where as in DBSAN the eps and min_no_samples can be modiied by the user.
+The variation in these parameters can lead to different cluster information accordingly.
+
 Syntax for execution:
 First get the drive information using "fdisk -l"
+
+Execute:
 python <filename>.py -d /dev/sda -o <directory path for output> -T <in seconds> -N <Number of Samples> -S <Total Number of Sector>
